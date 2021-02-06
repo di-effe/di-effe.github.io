@@ -7,24 +7,104 @@ folder: mydoc
 
 ## Overview
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
+Oh boy, we first need a big bunch of staff :)
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
+*  Haxe
+*  Hashlink
+*  Heaps
+*  Haxe libs
+*  VSCode (optional, but recommended)
 
-## Survey of features
+For convenience this guide will mainly follow the same steps documented by Deepnight in his [Haxe + Heaps tutorial page](https://deepnight.net/tutorials/).
 
-Some of the more prominent features of this theme include the following:
+## Installing Haxe 
+Haxe is a cool programming language that can compile to multiple platforms. It’s free and open-source.
 
-* Bootstrap framework
-* [Navgoco multi-level sidebar](http://www.komposta.net/article/navgoco) for table of contents
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
-* Advanced landing page layouts from the [Modern Business theme](http://startbootstrap.com/template-overviews/modern-business/).
+Download the [latest Haxe installer](https://haxe.org/download/) and install it to a folder like **C:\Dev\HaxeToolkit**
 
-## Getting started
+Important: for the next sections of this tutorial, I’ll assume Haxe is installed in this folder.
 
-To get started, see [Getting Started][index].
+After the setup, you should get 2 folders:
 
-{% include links.html %}
+*  **C:\Dev\HaxeToolkit\haxe**: the compiler and all the standard libraries
+*  **C:\Dev\HaxeToolkit\neko**: the Neko VM which is used internally.
+
+Now open Command Prompt and type 
+
+```haxe
+haxe
+```
+
+You should get something like
+
+{% include image.html file="haxe_version.png" alt="Haxe version" %}
+
+
+## Installing Hashlink 
+Hashlink (HL) is Haxe virtual machine. We use it to build cross-platform titles.
+
+Download the [latest Hashlink installer](https://haxe.org/download/) and install it to a folder like **C:\Dev\HaxeToolkit\hl**
+
+Now open Command Prompt and type 
+
+```haxe
+hl
+```
+
+You should get something like
+
+{% include image.html file="hashlink_version.png" alt="Haxe version" %}
+
+## Installing Heaps 
+HeapsIO is a free open-source 2D/3D engine used in large game projects, like Dead Cells, Northgard or Evoland 2.
+
+The engine is actually a library of Haxe (ie. an Haxelib) which can be installed easily using the bundled haxelib.exe tool.
+Open Command Prompt and type 
+
+```haxe
+haxelib git heaps https://github.com/HeapsIO/heaps.git 
+```
+
+**Important**: we won’t use the default haxelib install heaps command here, because the official GIT version is much more up-to-date than the haxelib repo.
+
+## Installing Haxe libs
+
+Open Command Prompt and type 
+
+
+**For DirectX support in HashLink:**
+```haxe
+haxelib install hldx
+```
+**For OpenGL/SDL support in HashLink:**
+```haxe
+haxelib install hlsdl
+```
+**For deepnightLibs:**
+```haxe
+haxelib git deepnightLibs https://github.com/deepnight/deepnightLibs.git
+```
+**For CastleDB :**
+```haxe
+haxelib git castle https://github.com/ncannasse/castle.git
+```
+
+**You can check the installed libs by typing:**
+```haxe
+haxelib list
+```
+
+
+## VSCode (optional, but recommended)
+
+VScode is a nice IDE that features full Haxe integration if you install the dedicated extension. Out of the box, you’ll get code completion, easier project setup, debugging & much more.
+
+Download the [latest VSCode installer](https://code.visualstudio.com/) and install it following the usual steps.
+When you're up and running download the Haxe Extension Pack from VSCode built-in extension browser.
+
+{% include image.html file="vscode_haxe_ext.png" alt="Haxe extension pack" %}
+
+
+## Ready? Next stop, gameBase
+
+Oki-dokie, let's move to [gameBase](gamebase_setup.html)
