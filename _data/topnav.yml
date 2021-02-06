@@ -1,0 +1,25 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/di-effe
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Links
+      folderitems:
+        - title: Haxe
+          external_url: https://haxe.org/
+        - title: Heaps
+          external_url: https://heaps.io/
+        - title: Deepnight Github
+          external_url: https://github.com/deepnight        
+        - title: gameBase
+          external_url: https://github.com/deepnight/gameBase
+        - title: LDtk
+          external_url: https://ldtk.io/
+          

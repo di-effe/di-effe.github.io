@@ -1,0 +1,42 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  # product: Jekyll Doc Theme
+  # version: 6.0
+  folders:
+
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Get Started
+      url: /overview_get_started.html
+      output: web, pdf
+
+  - title: gameBase
+    output: web, pdf
+    folderitems:
+
+    - title: Setup
+      url: /gamebase_setup.html
+      output: web, pdf
+
+    - title: LDtk integration
+      url: /gamebase_ldtk_integration.html
+      output: web, pdf      
+
+  - title: LDtk
+    output: web, pdf
+    folderitems:
+
+    - title: Basics
+      url: /ldtk_basics.html
+      output: web, pdf
+
