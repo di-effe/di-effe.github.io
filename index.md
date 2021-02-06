@@ -22,8 +22,38 @@ I guess we could call gameBase a template for 2D Games, written using Haxe langu
 
 [Deepnight](https://deepnight.net/) wrote gameBase mainly for himself and because he loves [Ludum Dare](https://ldjam.com/) jams, but the source code is free and available on gitHub so we all can enjoy the work he has already done :)
 
+## What's LDtk?
+
+[LDtk](https://ldtk.io/) is a Level Deigner Toolkit and we'll use this to create our levels and our entire world.
+As for gameBase it's beibg developed by Deepnight and it's growing into something special. Give it a try even if you don't want to use gameBase or Heaps.
+
+{% include image.html file="ldtk_intro.png" alt="LDtk" %}
+
 ## Examples
 
 I guess the easy way to understand what is this all about is to show some games. If you like what you see and you're not afraid of a little coding, this may be perfect to create your dream game.
 
+### Fort Loop by Deepnight
+
+{% include image.html file="example_fortloop.png" url="https://deepnight.net/games/fort-loop/" alt="Fort Loop" caption="Click to play the game" %}
+
+Fort Loop is a fantastic example of what can be achieved with gameBase and is pack full of great ideas, both in gameplay and in code.
+It's a puzzle game created for LD47 and a must have source code for any beginner.
+
+Source code is as always available on [Deepnight's gitHub](https://github.com/deepnight/ld47).
+
+### Game feel demo by Deepnight
+
+{% include image.html file="example_gamefeel.png" url="https://deepnight.net/games/game-feel/" alt="Game feel demo" caption="Click to play the game" %}
+
+This is not exactly an actual game. It was developed to serve as a demonstration for a “Game feel” talk in 2019 at the ENJMIN school, but it's a small little gem to explore with beautiful controls and nice physics.
+
+### Ninja Frog by me
+
+{% include image.html file="example_ninjafrog.png" url="https://dieffe.itch.io/ninja-frog/" alt="Ninja Frog" caption="Click to play the game" %}
+
+Ninja Frog is my first real game and has been mainly a learning exercise for gameBase.
+It's not a perfect game by any stretch, but it was fun and I enjoyed every bug, issue and of course every little success.  
+
+This is a small puzzle game, heavily inspired (something more than inspired I admit) by the beautiful Pixel Frog art. His demo levels are so nice, complete and full of ideas, that I couldn't resist the urge to try to replicate at least of fraction of them on my own. 
 
