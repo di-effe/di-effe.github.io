@@ -7,7 +7,7 @@ folder: mydoc
 
 ## Overview
 
-Oh boy, we first need a big bunch of staff :)
+Oh boy, we first need a big bunch of stuff :)
 
 *  Haxe
 *  Hashlink

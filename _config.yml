@@ -3,10 +3,10 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Gamedev from a noob :D
+topnav_title: gameBase from scratch
 # this appears on the top navigation bar next to the home button
 
-site_title: Gamedev from a noob :D
+site_title: gameBase from scratch
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: DìEffe
@@ -33,7 +33,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_disable: true
+# feedback_disable: true
 # feedback_subject_line: Jekyll documentation theme
 
 # feedback_email: tomjoht@gmail.com
