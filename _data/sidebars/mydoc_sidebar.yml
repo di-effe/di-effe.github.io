@@ -28,6 +28,10 @@ entries:
       url: /gamebase_setup.html
       output: web, pdf
 
+    - title: Knowledge base
+      url: /gamebase_knowledge_base.html
+      output: web, pdf
+
     - title: LDtk integration
       url: /gamebase_ldtk_integration.html
       output: web, pdf      
