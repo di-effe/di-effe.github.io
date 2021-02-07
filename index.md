@@ -25,7 +25,7 @@ I guess we could call gameBase a template for 2D Games, written using Haxe langu
 ## What's LDtk?
 
 [LDtk](https://ldtk.io/) is a Level Designer Toolkit and we'll use this to create our levels and our entire world.
-As for gameBase it's being developed by Deepnight and it's growing into something special. Give it a try even if you don't want to use gameBase or Heaps.
+Just like gameBase it's being developed by Deepnight and it's growing into something special. Give it a try even if you don't want to use gameBase or Heaps.
 
 {% include image.html file="ldtk_intro.png" alt="LDtk" %}
 
