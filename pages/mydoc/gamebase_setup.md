@@ -5,6 +5,9 @@ permalink: gamebase_setup.html
 folder: mydoc
 ---
 
+{% include note.html content="The information below are mainly from Deepnight's tutorial [Using GameBase to create an Haxe+Heaps game](https://deepnight.net/tutorial/using-my-gamebase-to-create-a-heaps-game/) because I'm not going to reinvent the wheel :)" %}
+
+
 ## Overview
 
 [gameBase](https://github.com/deepnight/gameBase) offers a minimal set of classes and tools to get started quickly making your own game. It’s completely open source and easy to adapt to your needs. 
