@@ -9,7 +9,7 @@ folder: mydoc
 
 ## Overview
 
-[LDtk](https://ldtk.io/) is a 2D level/world editor based on Deepnight's experience creating Dead Cells (**that** one) and partecipating at game jams.
+[LDtk](https://ldtk.io/) is a 2D level/world editor based on Deepnight's experience creating Dead Cells (**that** one) and participating at game jams.
 
 {% include image.html file="ldtk_logo.png" alt="LDtk logo" %}
 
