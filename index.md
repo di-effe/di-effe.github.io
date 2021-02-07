@@ -14,7 +14,7 @@ Nobody, really. I'm not a developer by trade, especially not a game developer.  
 ## What's all this?
 
 To be honest, is a bit like cheating or skipping the hard work of really learn to code. Let's call this Game dev for amateurs.
-This is aimed at people who would like to create little (or big) 2D games for fun, because it's interesting and because it's a way to learn something new.
+This is aimed at people who would like to create little (or big) 2D games for fun, because it's interesting and because it's an excuse to learn something new.
 
 ## What's gameBase?
 
