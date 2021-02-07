@@ -40,7 +40,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Basics
-      url: /ldtk_basics.html
+    - title: First steps
+      url: /ldtk_first_steps.html
       output: web, pdf
 
