@@ -15,7 +15,7 @@ Oh boy, we first need a big bunch of stuff :)
 *  Haxe libs
 *  VSCode (optional, but recommended)
 
-For convenience this guide will mainly follow the same steps documented by Deepnight in his [Haxe + Heaps tutorial page](https://deepnight.net/tutorials/).
+For convenience, this guide will mainly follow the same steps documented by Deepnight in his [Haxe + Heaps tutorial page](https://deepnight.net/tutorials/).
 
 ## Installing Haxe 
 Haxe is a cool programming language that can compile to multiple platforms. It’s free and open-source.
@@ -58,7 +58,7 @@ You should get something like
 ## Installing Heaps 
 HeapsIO is a free open-source 2D/3D engine used in large game projects, like Dead Cells, Northgard or Evoland 2.
 
-The engine is actually a library of Haxe (ie. an Haxelib) which can be installed easily using the bundled haxelib.exe tool.
+The engine is a library of Haxe (ie. an Haxelib) which can be installed easily using the bundled haxelib.exe tool.
 Open Command Prompt and type 
 
 ```haxe
@@ -97,7 +97,7 @@ haxelib list
 
 ## VSCode (optional, but recommended)
 
-VScode is a nice IDE that features full Haxe integration if you install the dedicated extension. Out of the box, you’ll get code completion, easier project setup, debugging & much more.
+VSCode is a nice IDE that features full Haxe integration if you install the dedicated extension. Out of the box, you’ll get code completion, easier project setup, debugging & much more.
 
 Download the [latest VSCode installer](https://code.visualstudio.com/) and install it following the usual steps.
 When you're up and running download the Haxe Extension Pack from VSCode built-in extension browser.

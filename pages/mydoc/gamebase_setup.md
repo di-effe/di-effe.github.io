@@ -5,28 +5,28 @@ permalink: gamebase_setup.html
 folder: mydoc
 ---
 
-{% include note.html content="The information below are mainly from Deepnight's tutorial [Using GameBase to create an Haxe+Heaps game](https://deepnight.net/tutorial/using-my-gamebase-to-create-a-heaps-game/) because I'm not going to reinvent the wheel :)" %}
+{% include note.html content="The information below is mainly from Deepnight's tutorial [Using GameBase to create an Haxe+Heaps game](https://deepnight.net/tutorial/using-my-gamebase-to-create-a-heaps-game/) because I'm not going to reinvent the wheel :)" %}
 
 
 ## Overview
 
-[gameBase](https://github.com/deepnight/gameBase) offers a minimal set of classes and tools to get started quickly making your own game. It’s completely open source and easy to adapt to your needs. 
+[gameBase](https://github.com/deepnight/gameBase) offers a minimal set of classes and tools to get started quickly making your own game. It’s completely open-source and easy to adapt to your needs. 
 
-It's not that easy (for me at least) to provide a bird's-eye view of the entire gameBase in a few words, but for now let'sa say that
+It's not that easy (for me at least) to provide a bird's-eye view of the entire gameBase in a few words, but for now let's say that
 
-*  It uses a grid based logic: the level, for example, is a grid of empty cells (where the player can walk) and wall cells.
-*  It uses haxe [deepnightLibs](https://github.com/deepnight/deepnightLibs), general purpose libs Deepnight uses on his projects.
+*  It uses a grid-based logic: the level, for example, is a grid of empty cells (where the player can walk) and wall cells.
+*  It uses haxe [deepnightLibs](https://github.com/deepnight/deepnightLibs), general-purpose libs Deepnight uses on his projects.
 
 ## Requisites
 
-Firt we need Haxe and Heaps installed. If you don't have them please follow [this guide](overview_get_started.html).
+First, we need Haxe and Heaps installed. If you don't have them please follow [this guide](overview_get_started.html).
 
 ## Get gameBase
 
 gameBase is a public [gitHub repository](https://github.com/deepnight/gameBase).
 To get it you can
 *  Use template button
-*  Fork it on your github and then clone it on your computer
+*  Fork it on your gitHub and then clone it on your computer
 *  Clone it directly on your computer
 *  Download the code archive on your computer
 
@@ -74,7 +74,7 @@ hl bin\client.hl
 start js.html
 ```
 
-In both cases you should see something like this
+In both cases, you should see something like this
 
 {% include image.html file="gamebase_firstrun.png" alt="gameBase first run" %}
 
@@ -115,6 +115,6 @@ How hit F5 to run a debug session. If you choose to work with DirectX you should
 ## That's not a game!
 
 Yeah, I know. One step at a time :)
-We'll get there, but first we need to get a little [knowledge base](gamebase_knowledge_base.html).
+We'll get there, but first, we need to get a little [knowledge base](gamebase_knowledge_base.html).
 
 Trust me, it will be handy in the future.

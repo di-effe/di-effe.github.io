@@ -13,8 +13,8 @@ Nobody, really. I'm not a developer by trade, especially not a game developer.  
 
 ## What's all this?
 
-To be honest is a bit like cheating or skipping the hard work of really learn to code. Let's call this Game dev for amatuers.
-This is aimed to people who would like to create little (or big) 2D games for fun, because it's interesting, because it's a way to learn something new.
+To be honest, is a bit like cheating or skipping the hard work of really learn to code. Let's call this Game dev for amateurs.
+This is aimed at people who would like to create little (or big) 2D games for fun, because it's interesting because it's a way to learn something new.
 
 ## What's gameBase?
 
@@ -24,8 +24,8 @@ I guess we could call gameBase a template for 2D Games, written using Haxe langu
 
 ## What's LDtk?
 
-[LDtk](https://ldtk.io/) is a Level Deigner Toolkit and we'll use this to create our levels and our entire world.
-As for gameBase it's beibg developed by Deepnight and it's growing into something special. Give it a try even if you don't want to use gameBase or Heaps.
+[LDtk](https://ldtk.io/) is a Level Designer Toolkit and we'll use this to create our levels and our entire world.
+As for gameBase it's being developed by Deepnight and it's growing into something special. Give it a try even if you don't want to use gameBase or Heaps.
 
 {% include image.html file="ldtk_intro.png" alt="LDtk" %}
 
@@ -38,7 +38,7 @@ I guess the easy way to understand what is this all about is to show some games.
 {% include image.html file="example_fortloop.png" url="https://deepnight.net/games/fort-loop/" alt="Fort Loop" caption="Click to play the game" %}
 
 Fort Loop is a fantastic example of what can be achieved with gameBase and is pack full of great ideas, both in gameplay and in code.
-It's a puzzle game created for LD47 and a must have source code for any beginner.
+It's a puzzle game created for LD47 and a must-have source code for any beginner.
 
 Source code is as always available on [Deepnight's gitHub](https://github.com/deepnight/ld47).
 
@@ -53,7 +53,7 @@ This is not exactly an actual game. It was developed to serve as a demonstration
 {% include image.html file="example_ninjafrog.png" url="https://dieffe.itch.io/ninja-frog/" alt="Ninja Frog" caption="Click to play the game" %}
 
 Ninja Frog is my first real game and has been mainly a learning exercise for gameBase.
-It's not a perfect game by any stretch, but it was fun and I enjoyed every bug, issue and of course every little success.  
+It's not a perfect game by any stretch, but it was fun and I enjoyed every bug, issue, and of course every little success.  
 
-This is a small puzzle game, heavily inspired (something more than inspired I admit) by the beautiful Pixel Frog art. His demo levels are so nice, complete and full of ideas, that I couldn't resist the urge to try to replicate at least of fraction of them on my own. 
+This is a small puzzle game, heavily inspired (something more than inspired I admit) by the beautiful Pixel Frog art. His demo levels are so nice, complete, and full of ideas, that I couldn't resist the urge to try to replicate at least a fraction of them on my own. 
 
