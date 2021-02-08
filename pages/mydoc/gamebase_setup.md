@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: gameBase setup
 sidebar: mydoc_sidebar
 permalink: gamebase_setup.html
 folder: mydoc

@@ -1,5 +1,5 @@
 ---
-title: Knowledge base
+title: gameBase Knowledge base
 sidebar: mydoc_sidebar
 permalink: gamebase_knowledge_base.html
 folder: mydoc

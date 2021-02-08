@@ -1,5 +1,5 @@
 ---
-title: LDtk integration
+title: gameBase LDtk integration
 sidebar: mydoc_sidebar
 permalink: gamebase_ldtk_integration.html
 folder: mydoc

@@ -1,5 +1,5 @@
 ---
-title: First steps
+title: LDtk first steps
 sidebar: mydoc_sidebar
 permalink: ldtk_first_steps.html
 folder: mydoc
