@@ -27,7 +27,6 @@ Important: for the next sections of this tutorial, I’ll assume Haxe is install
 After the setup, you should get 2 folders:
 
 *  **C:\Dev\HaxeToolkit\haxe**: the compiler and all the standard libraries
-*  **C:\Dev\HaxeToolkit\neko**: the Neko VM which is used internally.
 
 Now open Command Prompt and type 
 
@@ -76,22 +75,29 @@ haxelib git heaps https://github.com/HeapsIO/heaps.git
 Open Command Prompt and type 
 
 
-**For DirectX support in HashLink:**
+**DirectX support in HashLink:**
 ```haxe
 haxelib install hldx
 ```
-**For OpenGL/SDL support in HashLink:**
+**OpenGL/SDL support in HashLink:**
 ```haxe
 haxelib install hlsdl
 ```
-**For deepnightLibs:**
+**deepnightLibs:**
 ```haxe
 haxelib git deepnightLibs https://github.com/deepnight/deepnightLibs.git
 ```
-**For CastleDB :**
+**LDtk API:**
+```haxe
+haxelib install ldtk-haxe-api https://github.com/deepnight/ldtk-haxe-api.git
+```
+
+**CastleDB :**
 ```haxe
 haxelib git castle https://github.com/ncannasse/castle.git
 ```
+
+
 
 **You can check the installed libs by typing:**
 ```haxe
