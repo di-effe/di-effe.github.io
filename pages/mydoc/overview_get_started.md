@@ -89,7 +89,7 @@ haxelib git deepnightLibs https://github.com/deepnight/deepnightLibs.git
 ```
 **LDtk API:**
 ```haxe
-haxelib install ldtk-haxe-api https://github.com/deepnight/ldtk-haxe-api.git
+haxelib git ldtk-haxe-api https://github.com/deepnight/ldtk-haxe-api.git
 ```
 
 **CastleDB:**
