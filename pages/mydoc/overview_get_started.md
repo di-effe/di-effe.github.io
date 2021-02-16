@@ -43,7 +43,11 @@ You should get something like
 ## Installing Hashlink 
 Hashlink (HL) is Haxe virtual machine. We use it to build cross-platform titles.
 
-Download the [latest Hashlink installer](https://haxe.org/download/) and install it to a folder like **C:\Dev\HaxeToolkit\hl**
+Download the [latest Hashlink build](https://github.com/HaxeFoundation/hashlink/releases) and extract it to a folder like **C:\Dev\HaxeToolkit\hl**
+
+
+{% include note.html content="Add the Hashlink folder (ie: **C:\Dev\HaxeToolkit\hl**)  to your PATH environment variable ([how?](https://www.google.com/search?q=adding+path+in+windows))." %}
+
 
 Now open Command Prompt and type 
 
