@@ -319,7 +319,7 @@ Since we want an ```Item``` entity that can be **Diamond** or **Heart**, let's c
 *  Click on ```CREATE ENTITY``` button
 *  Name the ```ENTITY IDENTIFIER``` **Hero**
 *  Change ```EDITOR VISUAL``` shape to **Ellipse** 
-*  Change ```MAX PER LEVEL``` to 1 and **move the last one instead of adding** when max is reached.
+*  Change ```MAX COUNT``` to 1 and **move the last one instead of adding** when max is reached.
 
 {% include image.html file="ldtk_new_world_entities_hero.png" alt="LDtk new world - Hero entity" max-width="600" %}
 
