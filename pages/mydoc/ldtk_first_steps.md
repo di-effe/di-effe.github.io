@@ -5,7 +5,7 @@ permalink: ldtk_first_steps.html
 folder: mydoc
 ---
 
-{% include note.html content="This guide was written working with LDtk 0.7.2. Subsequent versions may (and will) be different." %}
+{% include note.html content="This guide was written working with LDtk 0.8.0. Subsequent versions may (and will) be different." %}
 
 ## Overview
 
@@ -116,14 +116,6 @@ LDtk has a few settings we could play with, but at the moment we'll stick with t
 {% include image.html file="ldtk_new_world_project_settings.png" alt="LDtk new world - Project settings" max-width="600" %}
 
 
-### World settings
-
-{% include image.html file="ldtk_new_world_world_settings_button.png" alt="LDtk new world - World settings button" max-width="600" %}
-
-Here we can change the world layout, the level size, and other details, but right now we are only going to change the ```Level identifier``` from Level to **Level1**.
-
-{% include image.html file="ldtk_new_world_world_settings.png" alt="LDtk new world - World settings" max-width="600" %}
-
 ### Tilesets
 
 {% include image.html file="ldtk_new_world_tilesets_button.png" alt="LDtk new world - Tilesets button" max-width="600" %}
@@ -132,7 +124,6 @@ Here we can change the world layout, the level size, and other details, but righ
 
 {% include image.html file="ldtk_new_world_tileset.png" alt="LDtk new world - Tileset" max-width="600" %}
 
-And as you can see from the warning in red, now we need a few layers to work with.
 
 ### Layers
 
